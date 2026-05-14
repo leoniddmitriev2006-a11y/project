@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Frame</title>
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+  <main class="frame" aria-label="Main frame with connected highlights">
+    <canvas class="links-canvas" aria-hidden="true"></canvas>
+    <div class="beams" aria-hidden="true">
+      <div class="beam beam--tl"><span class="beam__halo beam__halo--1"></span><span class="beam__halo beam__halo--2"></span></div>
+      <div class="beam beam--tr"><span class="beam__halo beam__halo--1"></span><span class="beam__halo beam__halo--2"></span></div>
+      <div class="beam beam--rb"><span class="beam__halo beam__halo--1"></span><span class="beam__halo beam__halo--2"></span></div>
+      <div class="beam beam--b"><span class="beam__halo beam__halo--1"></span><span class="beam__halo beam__halo--2"></span></div>
+      <div class="beam beam--lb"><span class="beam__halo beam__halo--1"></span><span class="beam__halo beam__halo--2"></span></div>
+    </div>
+
+    <section class="hub" aria-label="Core eye node">
+      <img class="eye" src="img/eye.png" alt="Eye">
+    </section>
+
+    <a class="orb orb-top-left orb-link" href="gender.html" aria-label="Выбор пола">
+      <img src="img/clothes.png" alt="Hanger">
+    </a>
+
+    <section class="orb orb-top-right" aria-label="Game node">
+      <img src="img/game.png" alt="Gamepad">
+    </section>
+
+    <section class="orb orb-right-bottom" aria-label="User node">
+      <img src="img/user.png" alt="User">
+    </section>
+
+    <a class="orb orb-bottom orb-link" href="gallery.html" aria-label="Перейти в галерею">
+      <img src="img/photo.png" alt="Moon">
+    </a>
+
+    <a class="orb orb-left-bottom orb-link" href="policy.html" aria-label="Перейти к policy">
+      <img src="img/document.png" alt="Document">
+    </a>
+
+    <nav class="top-menu" aria-label="Quick actions">
+      <div class="top-menu__inner">
+        <a class="top-menu__profile" href="index.html" aria-label="На главную">
+          <img src="img/icon.png" alt="Profile">
+        </a>
+        <div class="top-menu__actions">
+          <a class="top-menu__action top-menu__action--bag" href="php/cart.php" aria-label="Корзина">
+            <svg viewBox="0 0 74 86" aria-hidden="true">
+              <path d="M14.5 24.5h45l3.5 50.5c.4 5.4-3.8 10-9.2 10H20.2c-5.4 0-9.6-4.6-9.2-10l3.5-50.5Zm11-1.5v-5.8C25.5 7.7 30.9 2 37 2s11.5 5.7 11.5 15.2V23m-23 0h23"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

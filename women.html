@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Женский каталог</title>
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body class="catalog-body catalog-body--women">
+  <main class="page-shell catalog-shell">
+    <section class="catalog-page catalog-page--women" aria-label="Женский каталог">
+      <nav class="top-menu catalog-page__menu" aria-label="Quick actions">
+        <div class="top-menu__inner">
+          <a class="top-menu__profile" href="index.html" aria-label="На главную">
+            <img src="img/icon.png" alt="Profile">
+          </a>
+          <div class="top-menu__actions">
+            <a class="top-menu__action top-menu__action--bag" href="php/cart.php" aria-label="Корзина">
+              <svg viewBox="0 0 74 86" aria-hidden="true"><path d="M14.5 24.5h45l3.5 50.5c.4 5.4-3.8 10-9.2 10H20.2c-5.4 0-9.6-4.6-9.2-10l3.5-50.5Zm11-1.5v-5.8C25.5 7.7 30.9 2 37 2s11.5 5.7 11.5 15.2V23m-23 0h23"/></svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <header class="catalog-hero">
+        <img class="catalog-hero__image" src="img/bannerwoman.png" alt="Женский каталог">
+      </header>
+
+      <div class="catalog-heading">
+        <h1 class="catalog-heading__title">КАТЕГОРИЯ ОДЕЖДЫ</h1>
+      </div>
+
+      <section class="catalog-grid" aria-label="Категории женской одежды">
+        <a class="catalog-card" href="php/products.php?gender=women&category=top" aria-label="Верх">
+          <img class="catalog-card__image" src="img/witem1.png" alt="Верх">
+          <span class="catalog-card__label">ВЕРХ</span>
+        </a>
+        <a class="catalog-card" href="php/products.php?gender=women&category=bottom" aria-label="Низ">
+          <img class="catalog-card__image" src="img/witem2.png" alt="Низ">
+          <span class="catalog-card__label">НИЗ</span>
+        </a>
+        <a class="catalog-card" href="php/products.php?gender=women&category=hoodie" aria-label="Худи">
+          <img class="catalog-card__image" src="img/witem3.png" alt="Худи">
+          <span class="catalog-card__label">ХУДИ</span>
+        </a>
+        <a class="catalog-card" href="php/products.php?gender=women&category=jeans" aria-label="Джинсы">
+          <img class="catalog-card__image" src="img/witem4.png" alt="Джинсы">
+          <span class="catalog-card__label">ДЖИНСЫ</span>
+        </a>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
